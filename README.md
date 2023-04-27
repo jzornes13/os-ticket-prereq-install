@@ -1,4 +1,4 @@
-# prereq-install-os
+# os ticket prereq-install
 pre os install
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
