@@ -34,8 +34,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
+- we will also need an azure subscription (free trial)
+
 - log into Azure, there are a couple of ways to do everything in Azure, the header or center of the page click create virtual machine.
-click Azure virtual machine (VM)
+  
 <p>
 <img src="https://imgur.com/0QMrH4G.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -60,24 +62,25 @@ click Azure virtual machine (VM)
 </p>
 <p>
 2
-    
--Repeat the same process for our 2nd vm but using Ubuntu for the operating system.
 
--again name it whatever you want.
+-Install / Enable IIS in Windows WITH CGI and Common HTTP Features 
 
--set the resource group to the same one created for the first virtual machine.
+-go to the control panel -> program -> turn on/off
 
--keep the size of the vcpus the same as the first machine
+-World Wide Web Services -> Application Development Features ->[X] CGI [X] 
 
-    -also use the same location in the first one we used west US 3
-    
-Change authentication to "Password"
+-Common HTTP Features ->click all
+
+-test by searching this in google 127.0.0.1
 
 <p>
 <img src="https://imgur.com/luYtLQI.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
 </p>
 <p>
 iss cgi
+
+-download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+
 </p>
 <br />
 
@@ -86,6 +89,9 @@ iss cgi
 </p>
 <p>
 PHP
+
+-download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+
 </p>
 <br />
 
@@ -94,6 +100,9 @@ PHP
 </p>
 <p>
 REWRITE
+
+-Create the directory C:\PHP
+
 </p>
 <br />
 
@@ -102,6 +111,10 @@ REWRITE
 </p>
 <p>
 rewrite install
+
+-download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+
+-in download files right click, press keep, then hit show more, keep and keep anyway
 </p>
 <br />
 
@@ -109,7 +122,9 @@ rewrite install
 <img scr="https://imgur.com/1x45G1N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+    
 php 7.3.8 install
+
 </p>
 <br />
 
