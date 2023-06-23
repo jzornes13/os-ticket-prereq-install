@@ -160,6 +160,13 @@ SQL 5</p>
 </p>
 <p>
 sql5.5 config
+  
+- search IIS in the start menu, right click and run as administrator
+- double click the php manager
+- in blue click register PHP version
+- browse to the PHP folder we created on c drive
+- click php-cgi at bottom(if you don't see it in the right bottom corner of that box hit the down arrow and all files)
+
 </p>
 <br />
 
