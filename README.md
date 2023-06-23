@@ -64,22 +64,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - go to the control panel -> program -> turn on/off
 - World Wide Web Services -> Application Development Features ->[X] CGI [X] 
 - Common HTTP Features ->click all
-- test by searching this in google 127.0.0.1, you should see the image below
+- test by searching this in google 127.0.0.1, you should see the 2nd image below
 
-
-<p>
-<img src="https://imgur.com/wc9UMFG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-127.0.0.1
-</p>
-<br />
 
 <p>
 <img src="https://imgur.com/luYtLQI.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
 </p>
 <p>
 iss cgi
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/wc9UMFG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+127.0.0.1
 
 -download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 
