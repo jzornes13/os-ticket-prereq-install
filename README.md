@@ -1,5 +1,4 @@
 # os ticket prereq-install
-pre os install
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
@@ -115,9 +114,9 @@ REWRITE
 <p>
 rewrite install
 
-- download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+-in download files, right-click, or top right there is an exclamation point in a triangle, click the 3 dots on the right of that message, press keep, then hit show more, click keep and keep anyway.
+-  download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip), right- click and press extract all -> unzip the contents into C:\PHP we just made in c drive.
 
-- in download files, right-click, or top right there is an exclamation point in a triangle, click the 3 dots on the right of that message, press keep, then hit show more, click keep and keep anyway
 </p>
 <br />
 
@@ -134,7 +133,7 @@ PHP 7.3.8 install
 <img src="https://imgur.com/R9r8ELs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-VCrediist
+VCredist
 </p>
 <br />
 
