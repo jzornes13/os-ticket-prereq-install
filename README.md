@@ -71,7 +71,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 -Common HTTP Features ->click all
 
--test by searching this in google 127.0.0.1
+-test by searching this in google 127.0.0.1, you should see the image below
+
+<p>
+<img src="https://imgur.com/wc9UMFG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+127.0.0.1
+</p>
+<br />
 
 <p>
 <img src="https://imgur.com/luYtLQI.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
