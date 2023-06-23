@@ -142,6 +142,7 @@ VCredist
 - do a typical setup when asked
 - launch configuration wizard
 - use standard configuration
+- set up user name a password
 
 
 </p>
