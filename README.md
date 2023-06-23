@@ -30,6 +30,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
+-We will need these programs to complete the install
+
+- https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+
 - log into Azure, there are a couple of ways to do everything in Azure, the header or center of the page click create virtual machine.
 click Azure virtual machine (VM)
 <p>
