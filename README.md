@@ -62,8 +62,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Install / Enable IIS in Windows WITH CGI and Common HTTP Features 
 - go to the control panel -> program -> turn on/off
-- World Wide Web Services -> Application Development Features ->[X] CGI [X] 
-- Common HTTP Features ->click all
+- expand World Wide Web Services -> Application Development Features ->[X] CGI
+- in the Common HTTP Features ->click all
 - test by searching this in google 127.0.0.1, you should see the 2nd image below(internet information services)
 
 
@@ -79,9 +79,9 @@ iss cgi
 <img src="https://imgur.com/wc9UMFG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-127.0.0.1
+- 127.0.0.1
 
--download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+- download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 
 </p>
 <br />
@@ -92,7 +92,7 @@ iss cgi
 <p>
 PHP
 
--download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+- download and install the Rewrite Module (rewrite_amd64_en-US.msi)
 
 </p>
 <br />
