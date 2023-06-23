@@ -39,7 +39,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://imgur.com/0QMrH4G.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-1
+- 1
     
 - Pick the resource group we just created RG-osTicket
 - name your VM anything you want in this case we named it VM-osticket
@@ -58,7 +58,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://imgur.com/tbajTdo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-2
+- 2
 
 - Install / Enable IIS in Windows WITH CGI and Common HTTP Features 
 - go to the control panel -> program -> turn on/off
@@ -71,7 +71,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://imgur.com/luYtLQI.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
 </p>
 <p>
-iss cgi
+- iss cgi
 </p>
 <br />
 
@@ -103,7 +103,7 @@ PHP
 <p>
 REWRITE
 
--Create the directory C:\PHP
+- Create the directory C:\PHP
 
 </p>
 <br />
@@ -124,7 +124,7 @@ rewrite install
 <img scr="https://imgur.com/1x45G1N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-    
+  
 php 7.3.8 install
 
 </p>
