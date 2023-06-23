@@ -64,7 +64,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - go to the control panel -> program -> turn on/off
 - World Wide Web Services -> Application Development Features ->[X] CGI [X] 
 - Common HTTP Features ->click all
-- test by searching this in google 127.0.0.1, you should see the 2nd image below
+- test by searching this in google 127.0.0.1, you should see the 2nd image below(internet information services)
 
 
 <p>
