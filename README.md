@@ -112,7 +112,7 @@ REWRITE
 <img src="https://imgur.com/t8hlzF8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--  rewrite install
+rewrite install
 
 - download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
 
@@ -124,7 +124,7 @@ REWRITE
 <img src="https://imgur.com/1x45G1N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-- php 7.3.8 install
+PHP 7.3.8 install
 
 </p>
 <br />
@@ -133,7 +133,7 @@ REWRITE
 <img src="https://imgur.com/R9r8ELs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-vcrediist
+VCrediist
 </p>
 <br />
 
@@ -141,7 +141,7 @@ vcrediist
 <img src="https://imgur.com/9RNl28P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-sql 5</p>
+SQL 5</p>
 <br />
 
 <p>
