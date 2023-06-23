@@ -22,19 +22,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- installation files to download- https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+- an active azure subscription( free trial)
+- azure virtual machine running windows operating system
 
 <h2>Installation Steps</h2>
-
--We will need these programs to complete the install
-
-- https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
-
-- we will also need an azure subscription (free trial)
 
 - log into Azure, there are a couple of ways to do everything in Azure, the header or center of the page click create virtual machine.
   
