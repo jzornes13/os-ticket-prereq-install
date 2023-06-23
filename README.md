@@ -124,7 +124,6 @@ rewrite install
 <img scr="https://imgur.com/1x45G1N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  
 php 7.3.8 install
 
 </p>
