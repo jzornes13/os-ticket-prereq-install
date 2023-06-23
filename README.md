@@ -28,7 +28,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-- log into Azure, there are a couple of ways to do everything in Azure, the header or center of the page click create virtual machine.
+- log into azure and click resource group
+- name this group RG-osTicket
+- we used west US 3
+- In the header or center of the page click create virtual machine.
   
 <p>
 <img src="https://imgur.com/0QMrH4G.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -36,11 +39,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 1
     
-- name your VM anything you want in this case we named it VM1
-
-- resource group is automatically given a name but you can change it.
+- Pick the resource group we just created RG-osTicket
+- name your VM anything you want in this case we named it VM-osticket
 - change the region to your own, we used west US 3
-- choose the size of the server taking into account what you will be using it for. we chose Standard e2 v3- 2vcpus, 16 gib memory
+- under image we chose windows 10 pro
+- choose the size of the server taking into account what you will be using it for. we chose Standard v3- 4 16gb memory
 - create a username and password (just remember your credentials!)
 - make sure to check your box (bottom left)
 - we can go ahead and skip everything else and click review/create
