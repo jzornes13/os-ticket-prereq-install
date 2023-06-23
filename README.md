@@ -126,6 +126,9 @@ rewrite install
 <p>
 PHP 7.3.8 install
 
+- download and install VC_redist.x86.exe
+
+
 </p>
 <br />
 
@@ -134,6 +137,12 @@ PHP 7.3.8 install
 </p>
 <p>
 VCredist
+- download and install mySQL 5.5.62
+- do a typical setup when asked
+- launch configuration wizard
+- use standard configuration
+
+
 </p>
 <br />
 
