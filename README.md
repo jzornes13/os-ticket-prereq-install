@@ -31,6 +31,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - log into azure and click resource group
 - name this group RG-osTicket
 - we used west US 3
+- click create
+- go back to azure
 - In the header or center of the page click create virtual machine.
   
 <p>
@@ -58,15 +60,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 2
 
--Install / Enable IIS in Windows WITH CGI and Common HTTP Features 
+- Install / Enable IIS in Windows WITH CGI and Common HTTP Features 
+- go to the control panel -> program -> turn on/off
+- World Wide Web Services -> Application Development Features ->[X] CGI [X] 
+- Common HTTP Features ->click all
+- test by searching this in google 127.0.0.1, you should see the image below
 
--go to the control panel -> program -> turn on/off
-
--World Wide Web Services -> Application Development Features ->[X] CGI [X] 
-
--Common HTTP Features ->click all
-
--test by searching this in google 127.0.0.1, you should see the image below
 
 <p>
 <img src="https://imgur.com/wc9UMFG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
