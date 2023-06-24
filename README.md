@@ -166,6 +166,7 @@ sql5.5 config
 - in blue click register PHP version
 - browse to the PHP folder we created on c drive
 - click php-cgi at bottom(if you don't see it in the right bottom corner of that box hit the down arrow and all files)
+- recommend restarting the server whenever you do this, in the ISS-osticket home box, click on the name of the server on the left then on the right there is a restart button in blue under the actions tab.
 
 </p>
 <br />
@@ -175,6 +176,15 @@ sql5.5 config
 </p>
 <p>
 register php in iss
+
+-  download and install osticket from the installation files.
+-  open 2 file explorer windows side by side
+-  extract and copy the file named upload to c:\inetpub\wwwroot by going to downloads, double click osticket
+-  in the second file explorer window find c:\inetpub\wwwroot
+-  then just drag the file "upload" into c:\inetpub\wwwroot
+-  in the root folder(c:\inetpub\wwwroot) rename the file "upload" to "osTicket" by right click rename or slowly clicking 2x on the name
+-  reload the server in the ISS-osticket home box, click on the name of the server on the left then on the right there is a restart button in blue under the actions tab.
+
 </p>
 <br />
 
@@ -183,6 +193,9 @@ register php in iss
 </p>
 <p>
 configure os ticket
+
+-  go to sites in ISS (left side) -> default -> osTicket, then on the right in blue click browse *80(http).
+-  you should see the picture below, if you have an error message restart the lab or figure out what you did wrong
 </p>
 <br />
 
@@ -191,14 +204,16 @@ configure os ticket
 </p>
 <p>
 osticket installed and working
-</p>
-<br />
 
-<p>
-<img src="https://imgur.com/tmxMRCm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-os enable extensions
+-  there will be some extensions not enabled indicated by a red X
+-  go back to ISS -> sites -> default -> osticket
+-  double click PHP Manager
+-  Enable: php_imap.dll
+-  Enable: php_intl.dll
+-  Enable: php_opcache.dll
+-  restatrt the server again and the web page saying thank you for choosing osTicket
+-  observe some of the red X are gone now
+
 </p>
 <br />
 
@@ -207,6 +222,14 @@ os enable extensions
 </p>
 <p>
 os configure name
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/tmxMRCm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+os enable extensions
 </p>
 <br />
 
