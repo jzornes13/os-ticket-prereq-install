@@ -114,7 +114,7 @@ REWRITE
 <p>
 rewrite install
 
--in download files, right-click, or top right there is an exclamation point in a triangle, click the 3 dots on the right of that message, press keep, then hit show more, click keep and keep anyway.
+-  in download files, right-click, or top right there is an exclamation point in a triangle, click the 3 dots on the right of that message, press keep, then hit show more, click keep and keep anyway.
 -  download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip), right- click and press extract all -> unzip the contents into C:\PHP we just made in c drive.
 
 </p>
