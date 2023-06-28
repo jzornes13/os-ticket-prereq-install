@@ -1,4 +1,4 @@
-# os ticket prereq-install
+# osticket prereq-install
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
@@ -21,17 +21,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- installation files to download- https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
-- an active azure subscription( free trial)
-- azure virtual machine running windows operating system
+- Installation files to download- https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+- An active azure subscription( free trial)
+- Azure virtual machine running windows operating system
 
 <h2>Installation Steps</h2>
 
-- log into azure and click resource group
-- name this group RG-osTicket
-- we used west US 3
-- click create
-- go back to azure
+- Log into azure and click resource group
+- Name this group RG-osTicket
+- We used west US 3
+- Click create
+- Go back to azure
 - In the header or center of the page click create virtual machine.
   
 <p>
@@ -41,14 +41,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 1
     
 - Pick the resource group we just created RG-osTicket
-- name your VM anything you want in this case we named it VM-osticket
-- change the region to your own, we used west US 3
-- under image we chose windows 10 pro
-- choose the size of the server taking into account what you will be using it for. we chose Standard v3- 4 16gb memory
-- create a username and password (just remember your credentials!)
-- make sure to check your box (bottom left)
-- we can go ahead and skip everything else and click review/create
-- if you get the go ahead in the form of "validation passed" click create and were good to go, let it set up your machine.
+- Name your VM anything you want in this case we named it VM-osticket
+- Change the region to your own, we used west US 3
+- Under image we chose windows 10 pro
+- Choose the size of the server taking into account what you will be using it for. we chose Standard v3- 4 16gb memory
+- Create a username and password (just remember your credentials!)
+- Make sure to check your box (bottom left)
+- We can go ahead and skip everything else and click review/create
+- If you get the go ahead in the form of "validation passed" click create and were good to go, let it set up your machine.
 
 </p>
 <br />
@@ -60,10 +60,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 2
 
 - Install / Enable IIS in Windows WITH CGI and Common HTTP Features 
-- go to the control panel -> program -> turn on/off
-- expand World Wide Web Services -> Application Development Features ->[X] CGI
-- in the Common HTTP Features ->click all
-- test by searching this in google 127.0.0.1, you should see the 2nd image below(internet information services)
+- Go to the control panel -> program -> turn on/off
+- Expand World Wide Web Services -> Application Development Features ->[X] CGI
+- In the Common HTTP Features ->click all
+- Test by searching this in google 127.0.0.1, you should see the 2nd image below(internet information services)
 
 
 <p>
@@ -80,7 +80,7 @@ iss cgi
 <p>
 127.0.0.1
 
-- download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+- Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 
 </p>
 <br />
@@ -91,7 +91,7 @@ iss cgi
 <p>
 PHP
 
-- download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+- Download and install the Rewrite Module (rewrite_amd64_en-US.msi)
 
 </p>
 <br />
@@ -112,10 +112,10 @@ REWRITE
 <img src="https://imgur.com/t8hlzF8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-rewrite install
+Rewrite install
 
--  in download files, right-click, or top right there is an exclamation point in a triangle, click the 3 dots on the right of that message, press keep, then hit show more, click keep and keep anyway.
--  download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip), right- click and press extract all -> unzip the contents into C:\PHP we just made in c drive.
+-  In download files, right-click, or top right there is an exclamation point in a triangle, click the 3 dots on the right of that message, press keep, then hit show more, click keep and keep anyway.
+-  Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip), right- click and press extract all -> unzip the contents into C:\PHP we just made in c drive.
 
 </p>
 <br />
@@ -126,7 +126,7 @@ rewrite install
 <p>
 PHP 7.3.8 install
 
-- download and install VC_redist.x86.exe
+- Download and install VC_redist.x86.exe
 
 
 </p>
@@ -138,11 +138,11 @@ PHP 7.3.8 install
 <p>
 VCredist
   
-- download and install mySQL 5.5.62
-- do a typical setup when asked
-- launch configuration wizard
-- use standard configuration
-- set up user name a password
+- Download and install mySQL 5.5.62
+- Do a typical setup when asked
+- Launch configuration wizard
+- Use standard configuration
+- Set up user name a password
 
 
 </p>
@@ -159,14 +159,14 @@ SQL 5</p>
 <img src="https://imgur.com/O8qA6Nl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-sql5.5 config
+Sql5.5 config
   
-- search IIS in the start menu, right click and run as administrator
-- double click the php manager
-- in blue click register PHP version
-- browse to the PHP folder we created on c drive
-- click php-cgi at bottom(if you don't see it in the right bottom corner of that box hit the down arrow and all files)
-- recommend restarting the server whenever you do this, in the ISS-osticket home box, click on the name of the server on the left then on the right there is a restart button in blue under the actions tab.
+- Search IIS in the start menu, right click and run as administrator
+- Double click the php manager
+- In blue click register PHP version
+- Browse to the PHP folder we created on c drive
+- Click php-cgi at bottom(if you don't see it in the right bottom corner of that box hit the down arrow and all files)
+- Recommend restarting the server whenever you do this, in the ISS-osticket home box, click on the name of the server on the left then on the right there is a restart button in blue under the actions tab.
 
 </p>
 <br />
@@ -175,15 +175,15 @@ sql5.5 config
 <img src="https://imgur.com/kZSBCTi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-register php in iss
+Register php in iss
 
--  download and install osticket from the installation files.
--  open 2 file explorer windows side by side
--  extract and copy the file named upload to c:\inetpub\wwwroot by going to downloads, double click osticket
--  in the second file explorer window find c:\inetpub\wwwroot
--  then just drag the file "upload" into c:\inetpub\wwwroot
--  in the root folder(c:\inetpub\wwwroot) rename the file "upload" to "osTicket" by right click rename or slowly clicking 2x on the name
--  reload the server in the ISS-osticket home box, click on the name of the server on the left then on the right there is a restart button in blue under the actions tab.
+-  Download and install osticket from the installation files.
+-  Open 2 file explorer windows side by side
+-  Extract and copy the file named upload to c:\inetpub\wwwroot by going to downloads, double click osticket
+-  In the second file explorer window find c:\inetpub\wwwroot
+-  Then just drag the file "upload" into c:\inetpub\wwwroot
+-  In the root folder(c:\inetpub\wwwroot) rename the file "upload" to "osTicket" by right click rename or slowly clicking 2x on the name
+-  Reload the server in the ISS-osticket home box, click on the name of the server on the left then on the right there is a restart button in blue under the actions tab.
 
 </p>
 <br />
@@ -192,10 +192,10 @@ register php in iss
 <img src="https://imgur.com/Up9lYlE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-configure os ticket
+Configure osTicket
 
--  go to sites in ISS (left side) -> default -> osTicket, then on the right in blue click browse *80(http).
--  you should see the picture below, if you have an error message restart the lab or figure out what you did wrong
+-  Go to sites in ISS (left side) -> default -> osTicket, then on the right in blue click browse *80(http).
+-  You should see the picture below, if you have an error message restart the lab or figure out what you did wrong
 </p>
 <br />
 
@@ -203,16 +203,16 @@ configure os ticket
 <img src="https://imgur.com/qyUhCug.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-osticket installed and working
+osTicket installed and working
 
--  there will be some extensions not enabled indicated by a red X
--  go back to ISS -> sites -> default -> osticket
--  double click PHP Manager
+-  There will be some extensions not enabled indicated by a red X
+-  Go back to ISS -> sites -> default -> osticket
+-  Double click PHP Manager
 -  Enable: php_imap.dll
 -  Enable: php_intl.dll
 -  Enable: php_opcache.dll
--  restatrt the server again and the web page saying thank you for choosing osTicket
--  observe some of the red X are gone now
+-  Restatrt the server again and the web page saying thank you for choosing osTicket
+-  Observe some of the red X are gone now
 
 </p>
 <br />
@@ -221,7 +221,7 @@ osticket installed and working
 <img src="https://imgur.com/t2I2Bkr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-os configure name
+Os configure name
 </p>
 <br />
 
@@ -229,14 +229,14 @@ os configure name
 <img src="https://imgur.com/tmxMRCm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-os enable extensions
+Os enable extensions
 
 -  Rename ost-sampleconfig.php file
--  in file explorer search  C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename by taking the "sample" out of the name
--  it should look like this C:\inetpub\wwwroot\osTicket\include\ost-config.php when complete
--  we will assign permissions to this fil(ost-config.php) by finding it in the c drive -> inetpub  -> wwwroot  -> osticket  -> include
--  right click ost-config.php  -> properties  -> security  -> Advanced  -> disable inheritance(bottom left)  -> remove all permissions
--  now we will click add  -> select a principal(top left in blue)  -> type everyone  -> check names  -> click full control  -> ok  -> apply  -> ok  -> ok
+-  In file explorer search  C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename by taking the "sample" out of the name
+-  It should look like this C:\inetpub\wwwroot\osTicket\include\ost-config.php when complete
+-  We will assign permissions to this fil(ost-config.php) by finding it in the c drive -> inetpub  -> wwwroot  -> osticket  -> include
+-  Right click ost-config.php  -> properties  -> security  -> Advanced  -> disable inheritance(bottom left)  -> remove all permissions
+-  Now we will click add  -> select a principal(top left in blue)  -> type everyone  -> check names  -> click full control  -> ok  -> apply  -> ok  -> ok
 
 </p>
 <br />
@@ -245,7 +245,7 @@ os enable extensions
 <img src="https://imgur.com/cnEA4Ve.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-ost configure permissions
+Ost configure permissions
 </p>
 <br />
 
@@ -253,20 +253,20 @@ ost configure permissions
 <img src="https://imgur.com/ocXvQ02.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-ost configure everyone permissions
+Ost configure everyone permissions
 
 -  Continue Setting up osTicket in the browser (click Continue)
 -  Name Helpdesk (Josh help desk) (example)
 -  Default email (receives email from customers) josh@helper.com (example)
--  write down whatever you put in to remember just in case
--  admin user and email again whatever you want
--  now we have to set up heidi SQL
+-  Write down whatever you put in to remember just in case
+-  Admin user and email again whatever you want
+-  Now we have to set up heidi SQL
 -  From the Installation Files, download and install HeidiSQL.
 -  Open Heidi SQL
--  accept everything and launch
+-  Accept everything and launch
 -  Create a new session(bottom left button), remember user name is root and our password is Password1
 -  Connect to the session by pressing open button
--  in Hedi SQL right click "unnamed" -> create new -> database -> name osTicket -> ok -> minimize that window and go back to osTicket setup page in your browser 
+-  In Hedi SQL right click "unnamed" -> create new -> database -> name osTicket -> ok -> minimize that window and go back to osTicket setup page in your browser 
 
 
 </p>
@@ -276,7 +276,7 @@ ost configure everyone permissions
 <img src="https://imgur.com/cRJn71i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-heidi sql install
+Heidi sql install
 
 -  Continue Setting up osticket in the browser under database settings
 -  MySQL Table Prefix: ost_
@@ -294,7 +294,7 @@ heidi sql install
 <img src="https://imgur.com/9SpxxQD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-heidi database
+Heidi database
 </p>
 <br />
 
@@ -302,11 +302,11 @@ heidi database
 <img src="https://imgur.com/DX7rJ7u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-os ticket installed
+osTicket installed
 
--  now we are going to clean up some files
--  search the c drive for C:\inetpub\wwwroot\osTicket\setup and right-click the "setup" folder and delete 
--  in the same screen find the "include" folder double click, find ost-config.PHP again -> right click -> properties -> security -> advanced -> highlight everyone -> edit -> un-click all the boxes EXCEPT “Read”  and "read & execute" -> ok -> apply -> ok -> ok.
+-  Now we are going to clean up some files
+-  Search the c drive for C:\inetpub\wwwroot\osTicket\setup and right-click the "setup" folder and delete 
+-  In the same screen find the "include" folder double click, find ost-config.PHP again -> right click -> properties -> security -> advanced -> highlight everyone -> edit -> un-click all the boxes EXCEPT “Read”  and "read & execute" -> ok -> apply -> ok -> ok.
 
 </p>
 <br />
@@ -315,10 +315,10 @@ os ticket installed
 <img src="https://imgur.com/PY989nn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-ost cleanup read only
+Ost cleanup read only
 
--  now we will make sure everything is working correctly by copy and pasting this URL (in your normal browser) http://localhost/osTicket/ 
--  log in using whatever credentials you created for osTicket
+-  Now we will make sure everything is working correctly by copy and pasting this URL (in your normal browser) http://localhost/osTicket/ 
+-  Log in using whatever credentials you created for osTicket
 -  Hopefully it worked congratulations! 
 </p>
 <br />
@@ -327,7 +327,7 @@ ost cleanup read only
 <img src="https://imgur.com/dBnSFjp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-osticket installed!
+osTicket installed!
 </p>
 <br />
 
