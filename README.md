@@ -89,7 +89,7 @@ Iss cgi
 <img src="https://imgur.com/oKESqOj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-PHP
+Php
 
 - Download and install the Rewrite Module (rewrite_amd64_en-US.msi)
 
@@ -100,10 +100,10 @@ PHP
 <img src="https://imgur.com/wpD2pqC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-REWRITE
+Rewrite
 
 - Create the directory C:\PHP
-- go into c drive, right click, new folder, name it PHP
+- Go into c drive, right click, new folder, name it PHP
 
 </p>
 <br />
