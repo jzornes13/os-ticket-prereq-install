@@ -1,4 +1,4 @@
-# osticket prereq-install
+# osTicket Prereq-install
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
