@@ -175,7 +175,7 @@ Sql5.5 config
 <img src="https://imgur.com/kZSBCTi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Register php in iss
+Register Php in Iss
 
 -  Download and install osticket from the installation files.
 -  Open 2 file explorer windows side by side
